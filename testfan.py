@@ -55,3 +55,6 @@ class TestFan:
             print("Color:", fan.get_color())
             print("On:", fan.is_on())
             print()
+
+# Create an instance of the TestFan class to run the program
+TestFan()
