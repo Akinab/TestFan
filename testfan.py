@@ -47,3 +47,5 @@ class TestFan:
 
         self.display_fan_properties(fan1)
         self.display_fan_properties(fan2)
+
+        @staticmethod
