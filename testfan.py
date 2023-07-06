@@ -49,3 +49,9 @@ class TestFan:
         self.display_fan_properties(fan2)
 
         @staticmethod
+        def display_fan_properties(fan):
+            print("Speed:", fan.get_speed())
+            print("Radius:", fan.get_radius())
+            print("Color:", fan.get_color())
+            print("On:", fan.is_on())
+            print()
