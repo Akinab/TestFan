@@ -39,3 +39,5 @@ class Fan:
 
     def set_color(self, color):
         self.__color = color
+
+class TestFan:
