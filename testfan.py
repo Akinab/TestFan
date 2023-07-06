@@ -40,6 +40,7 @@ class Fan:
     def set_color(self, color):
         self.__color = color
 
+
 class TestFan:
     def __init__(self):
         fan1 = Fan(Fan.FAST, 10, 'yellow', True)
@@ -48,13 +49,13 @@ class TestFan:
         self.display_fan_properties(fan1)
         self.display_fan_properties(fan2)
 
-        @staticmethod
-        def display_fan_properties(fan):
-            print("Speed:", fan.get_speed())
-            print("Radius:", fan.get_radius())
-            print("Color:", fan.get_color())
-            print("On:", fan.is_on())
-            print()
+    @staticmethod
+    def display_fan_properties(fan):
+        print("Speed:", fan.get_speed())
+        print("Radius:", fan.get_radius())
+        print("Color:", fan.get_color())
+        print("On:", fan.is_on())
+        print()
 
 # Create an instance of the TestFan class to run the program
 TestFan()
