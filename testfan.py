@@ -54,7 +54,7 @@ class TestFan:
         print("Speed:", fan.get_speed())
         print("Radius:", fan.get_radius())
         print("Color:", fan.get_color())
-        print("On:", fan.is_on())
+        print("On:", fan.is__on())
         print()
 
 # Create an instance of the TestFan class to run the program
