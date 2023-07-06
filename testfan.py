@@ -44,3 +44,6 @@ class TestFan:
     def __init__(self):
         fan1 = Fan(Fan.FAST, 10, 'yellow', True)
         fan2 = Fan(Fan.MEDIUM, 5, 'blue', False)
+
+        self.display_fan_properties(fan1)
+        self.display_fan_properties(fan2)
